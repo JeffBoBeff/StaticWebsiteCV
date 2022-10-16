@@ -1,9 +1,19 @@
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: inherit;
+}
+a:hover {
+    background-color: lightcyan;
+}
+
 nav {
 
 }
 
 nav > .selected {
-
+    background-color: skyblue;
 }
 
 .basic {

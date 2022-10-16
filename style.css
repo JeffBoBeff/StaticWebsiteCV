@@ -1,3 +1,7 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     height: auto;
     max-width: 25%;
@@ -26,6 +30,17 @@ nav {
 
 nav > .selected {
     background-color: skyblue;
+}
+
+.basic-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-master-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .basic {

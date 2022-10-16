@@ -2,12 +2,34 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 img {
     height: auto;
     max-width: 25%;
 }
 
-section > .skill {
+.project > h3 {
+    padding: 5em;
+}
+
+.project > img {
+    max-width: 25%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.skill {
     border-radius: 2em;
     padding: 0.2em;
     background-color: lightblue;
@@ -35,12 +57,31 @@ nav > .selected {
 .basic-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .basic-master-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.skill-container {
+    padding: 1em;
+}
+
+.skill-master-container {
+    background-color: plum;
+    border-radius: 2em;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
 }
 
 .basic {
@@ -60,7 +101,7 @@ nav > .selected {
 }
 
 @media only screen and (min-width: 480px) {
-
+    
 }
 
 @media only screen and (min-width: 801px) {
@@ -68,5 +109,7 @@ nav > .selected {
 }
 
 @media only screen and (min-width: 1281px) {
-
+    img {
+        max-width: 320px;
+    }
 }

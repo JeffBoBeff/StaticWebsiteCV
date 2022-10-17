@@ -52,10 +52,6 @@ a:hover {
     background-color: lightcyan;
 }
 
-nav {
-
-}
-
 nav > .selected {
     background-color: skyblue;
 }
@@ -123,22 +119,6 @@ nav > .selected {
 .exp {
     border: solid 0.1em black;
     margin: 1em;
-}
-
-.basic {
-
-}
-
-.skills {
-
-}
-
-.education {
-
-}
-
-.experience {
-
 }
 
 @media only screen and (min-width: 480px) {

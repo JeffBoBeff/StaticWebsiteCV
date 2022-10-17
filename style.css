@@ -10,6 +10,11 @@ section > div {
 
 img {
     height: auto;
+    max-width: 100%;
+}
+
+.profile-pic {
+    height: auto;
     max-width: 25%;
 }
 
@@ -34,6 +39,7 @@ h3 {
     padding: 0.2em;
     background-color: lightblue;
     width: fit-content;
+    margin: 0.1em;
 }
 
 a {
@@ -58,6 +64,7 @@ nav > .selected {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0.5em;
 }
 
 .basic-master-container {
@@ -84,6 +91,40 @@ nav > .selected {
     display: flex;
 }
 
+.education-container > :nth-child(even) {
+    background-color: blanchedalmond;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.education-container > :nth-child(odd) {
+    background-color: aquamarine;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.edu {
+    border: solid 0.1em black;
+    margin: 1em;
+}
+
+.experience-container > :nth-child(even) {
+    background-color: blanchedalmond;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.experience-container > :nth-child(odd) {
+    background-color: aquamarine;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.exp {
+    border: solid 0.1em black;
+    margin: 1em;
+}
+
 .basic {
 
 }
@@ -101,7 +142,14 @@ nav > .selected {
 }
 
 @media only screen and (min-width: 480px) {
-    
+    .education-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .experience-container {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 801px) {

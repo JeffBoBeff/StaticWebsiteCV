@@ -142,6 +142,21 @@ nav > .selected {
 }
 
 @media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 801px) {
+    .education-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .experience-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
     .education-container {
         display: flex;
         flex-direction: row;
@@ -150,13 +165,6 @@ nav > .selected {
         display: flex;
         flex-direction: row;
     }
-}
-
-@media only screen and (min-width: 801px) {
-
-}
-
-@media only screen and (min-width: 1281px) {
     img {
         max-width: 320px;
     }
